@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+        ul[class],
+        ol[class] {
+            padding: 0;
+        }
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        p,
+        ul[class],
+        ol[class],
+        li,
+        figure,
+        figcaption,
+        blockquote,
+        dl,
+        dd {
+            margin: 0;
+        }
+        body {
+            min-height: 100vh;
+            scroll-behavior: smooth;
+            text-rendering: optimizeSpeed;
+            line-height: 1.5;
+        }
+        ul[class],
+        ol[class] {
+            list-style: none;
+        }
+        a:not([class]) {
+            text-decoration-skip-ink: auto;
+        }
+        img {
+            max-width: 100%;
+            display: block;
+        }
+        article > * + * {
+            margin-top: 1em;
+        }
+        input,
+        button,
+        textarea,
+        select {
+            font: inherit;
+        }
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+                scroll-behavior: auto !important;
+            }
+        }
+
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container{
+            width: 930px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+        }
+        .card{
+            margin: 30px 0 0 0;
+            width: 450px;
+            height: 250px;
+            border-radius: 10px;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .card__subtitle{
+            font-size: 18px;
+        }
+        .card__title{
+            font-weight: bold;
+            font-size: 33px;
+        }
+        .btn{
+            padding: 5px 20px;
+            background-color: black;
+            border-radius: 10px;
+
+        }
+        .btn:hover{
+            cursor: pointer;
+        }
+        .btn__text{
+            font-size: 20px;
+            color: white;
+            width: 100%;
+            text-decoration: underline;
+        }
+        .card__wrapper{
+            display: flex;
+        }
+
+        .card-blue{
+            background-color: #699BF7;
+        }
+        .card-purple{
+            background-color: #C7B9FF;
+        }
+        .card-yellow{
+            background-color:  #FFC700;
+        }
+        .card-red{
+            background-color: #FF8577;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="card card-blue">
+        <div >
+            <p class="card__subtitle">Tutorial video</p>
+            <p class="card__title">Dev Mode tutorial</p>
+        </div>
+        <div>
+            <div class="card__wrapper">
+                <div class="btn">
+                    <div class="btn__text">Watch the video</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card card-purple">
+        <div >
+            <p class="card__subtitle">Blog post</p>
+            <p class="card__title">Making Figma better<br/> for developers</p>
+        </div>
+        <div>
+            <div class="card__wrapper">
+                <div class="btn">
+                    <div class="btn__text">Go to the blog</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card card-yellow">
+        <div >
+            <p class="card__subtitle">Helper Center</p>
+            <p class="card__title">Guide to Dev Mode</p>
+        </div>
+        <div>
+            <div class="card__wrapper">
+                <div class="btn">
+                    <div class="btn__text">Read the article</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card card-red">
+        <div >
+            <p class="card__subtitle">Playground</p>
+            <p class="card__title">Prototype with<br/> variables</p>
+        </div>
+        <div>
+            <div class="card__wrapper">
+                <div class="btn">
+                    <div class="btn__text">Go to the playground</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
