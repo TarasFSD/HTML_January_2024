@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+header {
+    height: 22vh;
+    background: #927D7D;
+}
+
+main {
+    display: flex;
+}
+
+.left-side {
+    height: 56vh;
+    width: 20vw;
+    background: #817C7C;
+}
+
+.center {
+    height: 56vh;
+    width: 60vw;
+    background: #A74848;
+
+}
+
+.right-side {
+    height: 56vh;
+    width: 20vw;
+    background: #B7AEAE;
+}
+
+footer {
+    height: 22vh;
+    background: #BDBDBD;
+}

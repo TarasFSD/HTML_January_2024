@@ -1,0 +1,47 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+}
+h2{
+    margin: 0;
+    font-size: 40px;
+}
+p{ margin: 0}
+a{
+    font-size: 40px;
+    text-decoration: none;
+    color: #000;
+    margin: 0 0 20px 0;
+}
+.block-top{
+    height: 100vh;
+    background: #8A8484;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.block-center{
+    height: 100vh;
+background: #9B6F6F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.block-bottom{
+    height: 100vh;
+    background: #5E5050;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.block__text{
+    margin: 20px;
+    width: 50vw;
+}
