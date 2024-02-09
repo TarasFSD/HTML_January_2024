@@ -1,0 +1,196 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.container-top {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url("./img/bacground_img.png") lightgray 50% / cover no-repeat;
+
+}
+
+
+.block {
+    display: flex;
+    height: 393px;
+    background: #FAF9F7;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.block__img {
+    width: 529px;
+}
+
+.block__content {
+    width: 529px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.block__title {
+    display: block;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: KoHo;
+    font-size: 45px;
+}
+
+.block__subtitle {
+    display: block;
+    margin: 44px 0;
+    font-family: KoHo;
+    font-size: 25px;
+}
+
+.block__btn {
+    width: 409px;
+    height: 76px;
+    font-family: KoHo;
+    font-size: 30px;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.container-center {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('./img/background_white.png'), #fff ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.video {
+    height: 52.35vh;
+    width: 62.76vw;
+}
+
+.text {
+    margin: 110px 0 0 0;
+    display: block;
+    width: 949px;
+    height: 183px;
+    flex-shrink: 0;
+    font-family: KoHo;
+    font-size: 35px;
+}
+
+.container-bottom {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: url('./img/background_white.png'), #fff ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.card {
+    width: 453.6px;
+    height: 700px;
+    background: rgba(83, 83, 83, 0.40);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.card__img {
+    width: 408.6px;
+    height: 214px;
+}
+
+.card__title {
+    font-family: KoHo;
+    font-size: 35px;
+    margin: 32px 0 24px 0;
+}
+
+.card__subtitle {
+    font-family: KoHo;
+    font-size: 35px;
+}
+
+.card__price {
+    font-family: KoHo;
+    font-size: 35px;
+    margin: 62px 0 25px 0;
+}
+
+.card__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 409px;
+    height: 76px;
+    flex-shrink: 0;
+    color: #6B6666;
+    font-family: KoHo;
+    font-size: 35px;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}

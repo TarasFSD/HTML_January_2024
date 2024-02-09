@@ -1,0 +1,176 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    line-height: 1;
+    background: #4E4949;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    background: #FFF;
+    width: 370px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.block-top {
+    border: 2px solid #8d8d8d;
+    height: 380px;
+}
+
+.title {
+    margin: 40px 0;
+    width: 150px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form__name {
+    display: block;
+    width: 320px;
+    height: 35px;
+}
+
+.form__password {
+    margin: 5px 0 10px 0;
+    display: block;
+    width: 320px;
+    height: 35px;
+}
+
+.form__btn {
+    display: flex;
+    height: 35px;
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #3b8bff;
+    color: #FFF;
+    font-weight: bold;
+    border: 0px solid;
+}
+
+.or {
+    text-align: center;
+    margin: 15px 0 25px 0;
+    font-weight: bold;
+color: #8A8484;
+    font-size: 12px;
+}
+
+.facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook img {
+    width: 30px;
+}
+
+.facebook__text {
+    font-weight: bold;
+    color: #3b8bff;
+    font-size: 15px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reset-password {
+    display: inline;
+    margin: 10px 0 0 0;
+    text-align: center;
+    color: #3b8bff;
+    font-size: 14px;
+}
+
+.block-bottom {
+    margin: 10px 0 0 0;
+    border: 2px solid #8d8d8d;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-bottom__text {
+}
+
+.block-bottom__btn {
+    font-weight: bold;
+    color: #3b8bff;
+    font-size: 14px;
+}
